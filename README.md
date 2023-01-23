@@ -12,6 +12,8 @@ This project uses [pnpm](https://github.com/pnpm/pnpm) and [vite](https://vitejs
 pnpm install
 ```
 
+Additionally place `plantationProjects.json` and `customerLocations.json` in `src/data`
+
 ## Run
 
 ```bash
