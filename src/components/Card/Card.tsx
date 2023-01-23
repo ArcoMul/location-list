@@ -5,12 +5,13 @@ interface Props {
   title: string;
   open: boolean;
   onOpen: () => void;
+  onClose: () => void;
   children: ReactNode;
 }
 
-function Card({ title, open, onOpen, children }: Props) {
+function Card({ title, open, onOpen, onClose, children }: Props) {
   const handleHeaderClick = () => {
-    onOpen();
+    open ? onClose() : onOpen();
   };
 
   return (

@@ -1,3 +1,13 @@
 .ul {
+    list-style: none;
     padding: 0;
+}
+
+.input {
+    width: calc(100% - 1rem - 2px);
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
 }
