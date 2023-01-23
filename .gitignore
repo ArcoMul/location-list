@@ -1,3 +1,6 @@
+src/data/plantationProjects.json
+src/data/customerLocations.json
+
 # Logs
 logs
 *.log
