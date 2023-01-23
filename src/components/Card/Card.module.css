@@ -1,0 +1,18 @@
+.card {
+    padding: 0.5rem;
+    border: 1px solid #999;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.content {
+    display: none;
+    margin-top: 0.5rem;
+}
+.open .content {
+    display: block;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
