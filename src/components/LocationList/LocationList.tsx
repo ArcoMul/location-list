@@ -15,8 +15,7 @@ function LocationList() {
 
   // Update location list based on query input
   useEffect(() => {
-    const lquery = query.toLocaleLowerCase();
-    setLocations(matchLocationsByName(lquery));
+    setLocations(matchLocationsByName(query));
   }, [query]);
 
   // Update projects when open location changes
